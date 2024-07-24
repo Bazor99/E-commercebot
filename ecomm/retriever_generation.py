@@ -9,7 +9,7 @@ def generation(vstore):
     retriever = vstore.as_retriever(search_kwargs={"k": 3})
 
     PRODUCT_BOT_TEMPLATE = """
-    You are an ecommercebot bot is an expert in product recommendations and customer queries.
+    Your ecommercebot bot is an expert in product recommendations and customer queries.
     It analyzes product titles and reviews to provide accurate and helpful responses.
     Ensure your answers are relevant to the product context and refrain from straying off-topic.
     Your responses should be concise and informative.
